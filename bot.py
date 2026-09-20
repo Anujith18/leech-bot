@@ -15,9 +15,9 @@ from pyrogram.errors import UserNotParticipant, MessageNotModified, RPCError
 logging.basicConfig(level=logging.INFO)
 
 # --- Configuration & Credentials ---
-API_ID = int(os.environ.get("API_ID", "1234567"))
-API_HASH = os.environ.get("API_HASH", "your_api_hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token")
+API_ID = int(os.environ.get("API_ID", ""))
+API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 ALLOWED_GROUP_ID = int(os.environ.get("ALLOWED_GROUP_ID", "-1004323616488"))
 DATABASE_CHANNEL_ID = int(os.environ.get("DATABASE_CHANNEL_ID", "-1003992928955"))
 ADMINS = [1727225499] # നിങ്ങളുടെ ടെലഗ്രാം യൂസർ ഐഡി ഇവിടെ നൽകുക
