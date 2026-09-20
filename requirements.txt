@@ -1,4 +1,4 @@
-pyrogram
+Pyrogram
 tgcrypto
-git+https://github.com/yt-dlp/yt-dlp.git
 aiohttp
+libtorrent
